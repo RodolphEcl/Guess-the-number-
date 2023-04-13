@@ -1,3 +1,4 @@
+//Run it on your console to try
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -60,7 +61,7 @@ int main()
                 //Donner un nombre
                 printf(" What is the number ?");
                 scanf("%d", &answer);
-                //Comparer avec le numéro à trouver
+                //Comparer avec le numÃ©ro Ã  trouver
                 if(answer == numToFind){
                     printf("Good Job You won !!! \n");
                 }
@@ -140,7 +141,7 @@ int main()
 
                 printf(" %s \n Quel est le nombre ? ", player);
                 scanf("%d", &answer);
-                //Comparer avec le numéro à trouver
+                //Comparer avec le numÃ©ro Ã  trouver
                 if(answer == numToFind){
                     printf("%s won \n Congratulations !! \n\n\n", player);
                 }
